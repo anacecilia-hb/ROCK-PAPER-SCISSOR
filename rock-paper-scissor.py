@@ -6,7 +6,7 @@ class Jogador:
         self.escolha = ""
     def escolher(self):
         self.escolha = input("{nome}, escolha pedra, papel ou tesoura: ".format(nome = self.nome))
-        print("{nome} escolheu fez sua escolha".format(nome = self.nome))
+        print("{nome} fez sua escolha".format(nome = self.nome))
 
     def escolhaNumero(self):
         switcher = {
